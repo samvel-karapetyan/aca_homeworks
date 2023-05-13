@@ -49,7 +49,8 @@ class SpectralClustering:
         the nearest neighbors method. Ignored for ``affinity='rbf'``.
 
     graph : str, default=unnormalized
-        Using normalized graph Laplasian or unnormalized graph Laplasian.
+        - 'unnormalized': construct the laplacian matrix as unnormalized.
+         - 'normalized': construct the laplacian matrix as normalized.
 
     Attributes
     ----------
