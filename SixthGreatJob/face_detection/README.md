@@ -1,6 +1,6 @@
 # Face Detection
 
-  We have developed a real-time (and static) face detector. The training dataset we used is sourced from [UTKFace](https://susanqq.github.io/UTKFace/). To contribute testing (described below), we have made a small testing dataset available in our repository (`./data/images`).
+  We have developed a real-time (and static) face detector. We didn't use any augmentation and if needs it can be developed. The training dataset we used is sourced from [UTKFace](https://susanqq.github.io/UTKFace/). To contribute testing (described below), we have made a small testing dataset available in our repository (`./data/images`).
 
 We utilized the pretrained *SSD MobileNet V2 FPNLite 320x320* model for detection. The training dataset consisted of approximately 400 images, which we manually annotated.
 
