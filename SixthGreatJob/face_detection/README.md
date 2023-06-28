@@ -19,6 +19,13 @@ Navigate to the `face_detection` directory, located at `./face_detection`, and u
 `python face_detection.py --mode {real-time/static}`.
 
 For real-time mode, the program will utilize your camera to detect faces in real time.
+  Use `q` to interrupt video.
+
 For static mode, the program will use images from `./face_detection/data/images` to detect faces and save the results to `./face_detection/data/output`.
 
 Note: You also can add images to `./face_detection/data/images`
+
+![friend-group-selfie-1024x683](https://github.com/SamvelKarapetyaan/aca_homeworks/assets/130899451/fe0a22d8-081a-4eff-aef9-50a39fa74e77)
+![friend-group-selfie-1024x683](https://github.com/SamvelKarapetyaan/aca_homeworks/assets/130899451/7981517a-32df-4459-8549-7e385d1d88d4)
+
+
