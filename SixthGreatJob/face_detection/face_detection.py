@@ -103,8 +103,10 @@ def main():
 
     if mode == "real-time":
         real_time_detection()
-    if mode == "static":
+    elif mode == "static":
         static_detection()
+    else:
+        print("Wrong mode. Use {real-time/static}.")
 
 if __name__ == "__main__":
     main()
