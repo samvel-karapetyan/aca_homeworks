@@ -1,4 +1,4 @@
-# Face Detection
+t# Face Detection
 
   We have developed a real-time (and static) face detector. We didn't use any augmentation and if needs it can be developed. The training dataset we used is sourced from [UTKFace](https://susanqq.github.io/UTKFace/). To contribute testing (described below), we have made a small testing dataset available in our repository (`./data/images`).
 
@@ -23,7 +23,7 @@ For real-time mode, the program will utilize your camera to detect faces in real
 
 For static mode, the program will use images from `./face_detection/data/images` to detect faces and save the results to `./face_detection/data/output`.
 
-Note: You also can add images to `./face_detection/data/images`
+Note: You may also add images to `./face_detection/data/images`
 
 # Examples below
 Static:
