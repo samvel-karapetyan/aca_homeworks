@@ -1,4 +1,4 @@
-t# Face Detection
+# Face Detection
 
   We have developed a real-time (and static) face detector. We didn't use any augmentation and if needs it can be developed. The training dataset we used is sourced from [UTKFace](https://susanqq.github.io/UTKFace/). To contribute testing (described below), we have made a small testing dataset available in our repository (`./data/images`).
 
@@ -11,12 +11,16 @@ You may create a new environment.
 
 Step 1: *Install requirements*
 Navigate to the `requirements` directory, located at `./face_detection/requirements`, and use the command 
-`pip install object_detection`
-(do not use requirements.txt) to install the necessary dependencies.
+
+    cp object_detection/packages/tf2/setup.py .
+
+    python -m pip install .
+to install the necessary dependencies.
 
 Step 2: *Running*
 Navigate to the `face_detection` directory, located at `./face_detection`, and use the command 
-`python face_detection.py --mode {real-time/static}`.
+
+    python face_detection.py --mode {real-time/static}
 
 For real-time mode, the program will utilize your camera to detect faces in real time.
   Use `q` to interrupt.
